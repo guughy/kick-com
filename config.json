@@ -1,0 +1,95 @@
+{
+  "Language": "en",
+  "Debug": false,
+
+  "WebDashboard": {
+    "enabled": true,
+    "port": 7009
+  },
+
+  "Telegram": {
+    "enabled": false,
+    "bot_token": "",
+    "chat_id": "",
+    "allowed_users": []
+  },
+
+  "Discord": {
+    "enabled": false,
+    "webhook_url": "",
+    "username": "KickMiner",
+    "avatar_url": "",
+    "notify_points": true,
+    "notify_status_change": true,
+    "notify_errors": true,
+    "notify_startup": true,
+    "min_points_gain": 10,
+    "color_success": 3461464,
+    "color_info": 5793266,
+    "color_warning": 16763904,
+    "color_error": 15746887
+  },
+
+  "Proxy": {
+    "enabled": false,
+    "url": "socks5://user:password@host:port"
+  },
+
+  "Accounts": [
+    {
+      "alias": "edge",
+      "token": "435059213|PqI11TIeVstziCsDP7KvuFy0t7crnYj72afYGicl",
+      "proxy": null,
+      "streamers": [
+        "waffletrades",
+        "toebuu"
+      ],
+      "max_concurrent": 2
+    },
+    {
+      "alias": "vivaldi",
+      "token": "435330099|xeDLF2ZmHt0egIJckFvnKEMJZ7AmP3pG27s7QJZ7",
+      "proxy": null,
+      "streamers": [
+        "waffletrades",
+        "toebuu"
+      ],
+      "max_concurrent": 2
+    },
+    {
+      "alias": "chroma",
+      "token": "435077699|YAzIGdo1ZkTHJmIY53SW9FXkSHMUq75xujpYEu63",
+      "proxy": null,
+      "streamers": [
+        "waffletrades",
+        "toebuu"
+      ],
+      "max_concurrent": 2
+    },
+    {
+      "alias": "Brave",
+      "token": "435039928|9hwuhEe7gDhdDH0uzfM5liwFcMpB3tEIhdciwSnO",
+      "proxy": null,
+      "streamers": [
+        "waffletrades",
+        "toebuu"
+      ],
+      "max_concurrent": 2
+    },
+    {
+      "alias": "qakr10",
+      "token": "435077831|hRFdO5Zcv2E0CKUrBabZOlUObWviAKZrgT2tDYuo",
+      "proxy": null,
+      "streamers": [
+        "waffletrades",
+        "toebuu"
+      ],
+      "max_concurrent": 2
+    }
+  ],
+
+  "Check_interval": 120,
+  "Reconnect_cooldown": 600,
+  "Connection_stagger_min": 10,
+  "Connection_stagger_max": 25
+}
